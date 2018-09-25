@@ -1,0 +1,28 @@
+<div class='card'>
+  <div class='card-header'>
+    {{pageTitle}}
+  </div>
+
+  <div class='card-body'>
+
+    <form #form="ngForm" novalidate>
+      <div class="form-group" *ngFor="let field of fields" [formGroup]="myGroup">
+
+        <label>{{field.label}}</label>
+        <div>
+          <input id="inputField" class="form-control" [formControlName]="field.name" [type]="field.type" (ngModelChange)="addField(field.name, $event)">
+          
+        </div>
+      </div>
+      <button class="btn btn-danger" type="button" [disabled]="notDone" (click)="onSubmit()">Submit Form</button>
+    </form>
+</div>
+
+    <div class='card-footer'>
+      <button class='btn btn-outline-secondary'
+              (click)='onBack()'
+              style='width:80px'>
+        <i class='fa fa-chevron-left'></i> Back
+      </button>
+    </div>
+  </div>
