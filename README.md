@@ -1,13 +1,15 @@
-# Mean
+# MEAN
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
+Created as an attampt at learning MEAN technology (MEAN.JS is a full-stack JavaScript solution that helps you build fast, robust, and maintainable production web applications using MongoDB, Express, AngularJS, and Node.js).
 
-# personal note
+# About this excercise
 
-I know it took a while for me to submit this excersize. I would have liked to perfect it more, it took me a while to study these technologies and I know that given the time to get more fluent in them I can do much better.
-I hope that you'll let me prove myself.
-Thank you for the opportunity!
-Shani Cohen.
+This excercise was creating a full-stack project of a website with a list of forms that you can fill, see the previous filled data for each form and the possibilty of adding a new costume form to this list.
+
+# Personal note
+
+There is still a lot for me to lern about these technologies, but this is my first attempt using them.
 
 # Run This Project
 
